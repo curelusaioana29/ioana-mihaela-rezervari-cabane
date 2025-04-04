@@ -32,7 +32,7 @@ nav.main-menu a {
 }
 
 .guest-house-card {
-  width: calc(33% - 2.5rem);
+  width: calc(33% - 2.67rem);
   padding: 1rem;
 }
 
@@ -40,8 +40,31 @@ nav.main-menu a {
   width: 100%;
 }
 
-@media all and (max-width: 767px) {
+.button {
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.8rem 1.4rem;
+  font-size: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: contrast(1.5);
+}
+
+.button-primary {
+  background-color: #65007f;
+}
+
+@media all and (max-width: 1023px) {
   .guest-house-card {
     width: calc(50% - 3rem);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .guest-house-card {
+    width: calc(100% - 2rem);
   }
 }
