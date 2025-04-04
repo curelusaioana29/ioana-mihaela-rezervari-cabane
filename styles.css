@@ -9,9 +9,6 @@ body {
   padding: 2rem;
 }
 
-main {
-}
-
 nav.main-menu {
   position: sticky;
   top: 0;
@@ -26,4 +23,25 @@ nav.main-menu {
 nav.main-menu a {
   display: inline-block;
   padding: 1rem;
+}
+
+.guest-houses-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.guest-house-card {
+  width: calc(33% - 2.5rem);
+  padding: 1rem;
+}
+
+.guest-house-card img {
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .guest-house-card {
+    width: calc(50% - 3rem);
+  }
 }
