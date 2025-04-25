@@ -6,14 +6,15 @@ html {
 
 body {
   margin: 0;
-  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.8rem;
 }
 
 nav.main-menu {
   position: sticky;
   top: 0;
-  width: 100vw;
-  margin-left: -2rem;
   padding: 0 1rem;
   background: #fff;
   z-index: 100;
@@ -23,6 +24,17 @@ nav.main-menu {
 nav.main-menu a {
   display: inline-block;
   padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.page-content {
+  padding: 2rem;
+}
+
+.page-bottom {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 -5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .guest-houses-grid {
