@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+:root {
+  --default-font: "Dosis", Arial, Helvetica, sans-serif;
+
+  /* Font sizes */
+  --font-xs: 0.5rem;
+  --font-s: 0.75rem;
+  --font-md: 1rem;
+  --font-lg: 1.5rem;
+  --font-xl: 2rem;
+  --font-xxl: 2.5rem;
+  --font-xxxl: 2.75rem;
+}

@@ -1,0 +1,17 @@
+.button {
+  border: none;
+  border-radius: var(--size-sm);
+  padding: var(--size-sm) var(--size-lg);
+  font-family: var(--default-font);
+  font-size: var(--size-lg);
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: contrast(1.5);
+}
+
+.button-primary {
+  background-color: var(--color-primary);
+}

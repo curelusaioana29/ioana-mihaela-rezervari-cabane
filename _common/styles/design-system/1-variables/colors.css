@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #65007f;
+  --color-background: #fff;
+  --color-text: #232323;
+  --color-text-light: #f0f0f0;
+
+  --backdrop-color: rgba(0, 0, 0, 0.5);
+}

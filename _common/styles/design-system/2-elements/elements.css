@@ -1,0 +1,21 @@
+html {
+  font-family: var(--default-font);
+  color: var(--color-text);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+}
+
+h1 {
+  font-size: var(--font-xxl); 
+}
+
+h2 {
+  font-size: var(--font-xl);
+}
+
+h3 {
+  font-size: var(--font-lg);
+}

@@ -1,0 +1,28 @@
+.page-header {
+  padding: 0 var(--size-xl);
+}
+
+.main-menu {
+  position: sticky;
+  top: 0;
+  padding: 0 var(--size-md);
+  background: var(--color-background);
+  z-index: var(--z-index-100);
+  box-shadow: var(--shadow-small-down);
+}
+
+.main-menu a {
+  display: inline-block;
+  padding: var(--size-md);
+  font-size: var(--font-lg);
+}
+
+.page-content {
+  padding: var(--size-xl);
+}
+
+.page-footer {
+  text-align: center;
+  padding: var(--size-md);
+  box-shadow: var(--shadow-small-up);
+}
