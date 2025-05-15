@@ -1,0 +1,31 @@
+@import './../_common/styles/design-system/index.css';
+
+.offers-destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--size-md);
+}
+
+.offers-destinations-grid article {
+  position: relative;
+  height: 12.5rem;
+}
+
+.offers-destinations-grid article > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.offers-destinations-grid article > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+  color: var(--color-text-light);
+  background-color: var(--backdrop-color);
+}
