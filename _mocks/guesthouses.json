@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cabana Speranta",
+    "description": "Cabana Speranta este situata in Arieseni,Jud. Alba, dispune de 10 camere de inchiriat",
+    "price": 320,
+    "previewImageUrl": "guesthouses/cabana1.jpg"
+  },
+  {
+    "name": "Cabana Aurora",
+    "description": "Cabana Aurora este situata in Arieseni,Jud. Alba, dispune de 5 camere de inchiriat",
+    "price": 250,
+    "previewImageUrl": "guesthouses/cabana2.jpg"
+  },
+  {
+    "name": "Cabana Daria",
+    "description": "Cabana Daria este situata in Arieseni,Jud. Alba, dispune de 17 camere de inchiriat",
+    "price": 350,
+    "previewImageUrl": "guesthouses/cabana3.jpg"
+  },
+  {
+    "name": "Cabana Neag",
+    "description": "Cabana Neag este situata in Arieseni,Jud. Alba, dispune de 16 camere de inchiriat",
+    "price": 300,
+    "previewImageUrl": "guesthouses/cabana4.jpg"
+  },
+  {
+    "name": "Cabana Vraja Muntelui",
+    "description": "Cabana Vraja Muntelui este situata in Arieseni,Jud. Alba, dispune de 7 camere de inchiriat",
+    "price": 280,
+    "previewImageUrl": "guesthouses/cabana5.jpg"
+  },
+  {
+    "name": "Cabana Popasul Vanatorului",
+    "description": "Cabana Popasul Vanatorului este situata in Arieseni,Jud. Alba, dispune de 18 camere de inchiriat",
+    "price": 275,
+    "previewImageUrl": "guesthouses/cabana6.jpg"
+  }
+]
