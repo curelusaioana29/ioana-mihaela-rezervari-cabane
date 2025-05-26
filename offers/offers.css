@@ -6,11 +6,11 @@
   gap: var(--size-md);
 }
 
-.offers-destinations-grid article {
+.offers-destinations-grid .offers-destination-card {
   height: 17.5rem;
 }
 
-.offers-destinations-grid article > a {
+.offers-destinations-grid .offers-destination-card > a {
   display: block;
   position: relative;
   width: 100%;
@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-.offers-destinations-grid article img {
+.offers-destinations-grid .offers-destination-card img {
   position: absolute;
   top: 0;
   left: 0;
@@ -27,7 +27,7 @@
   z-index: -1;
 }
 
-.offers-destinations-grid article h3 {
+.offers-destinations-grid .offers-destination-card h3 {
   display: flex;
   align-items: center;
   justify-content: center;

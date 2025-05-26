@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Poiana Mărului, Brașov",
+    "thumbnailUrl": "destinations/poiana-marului.jpg",
+    "description": "A picturesque mountain resort known for its stunning landscapes and outdoor activities.",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Sinaia, Prahova",
+    "thumbnailUrl": "destinations/sinaia.jpg",
+    "description": "A charming town famous for its royal castle and beautiful mountain scenery.",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Sovata, Mureș",
+    "thumbnailUrl": "destinations/sovata.jpg",
+    "description": "Known for its unique salt lakes and therapeutic properties, Sovata is a serene getaway.",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "name": "Predeal, Brașov",
+    "thumbnailUrl": "destinations/predeal.jpg",
+    "description": "A popular ski resort with a vibrant atmosphere and excellent winter sports facilities.",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Pasul Vârtop, Alba",
+    "thumbnailUrl": "destinations/vartop.jpg",
+    "description": "A scenic mountain pass offering breathtaking views and a perfect spot for hiking enthusiasts.",
+    "rating": 5.0
+  },
+  {
+    "id": 6,
+    "name": "Păltiniș, Sibiu",
+    "thumbnailUrl": "destinations/paltinis.jpg",
+    "description": "One of the oldest mountain resorts in Romania, known for its tranquil environment and rich flora.",
+    "rating": 4.9
+  }
+]

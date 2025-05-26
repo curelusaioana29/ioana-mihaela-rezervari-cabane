@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Popular Destinations</title>
-  <script type="module" src="./popular-destinations.js"></script>
-</head>
-<body>
-  <h1>Popular Destinations</h1>
-  <p>Explore our most popular travel destinations!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popular Destinations</title>
+    <link rel="stylesheet" href="./popular-destinations.css" />
+    <script type="module" src="./popular-destinations.js"></script>
+  </head>
+  <body class="popular-destination-page">
+    <header id="destination-page-header" class="page-header">
+      <h1>Popular destination not found</h1>
+    </header>
+    <main class="page-content">
+      <p id="destination-rating" class="destination-rating"></p>
+      <p id="destination-description" class="destination-description"></p>
+      <section class="destination-guesthouses">
+        <h2>Guesthouses</h2>
+        <div id="destination-guesthouses-list" class="guest-houses-grid"></div>
+      </section>
+    </main>
+     <footer class="page-footer">Copyright &copy; Ioana Mihaela Negrea</footer>
+  </body>
 </html>

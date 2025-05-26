@@ -1,0 +1,35 @@
+@import './../../_common/styles/design-system/index.css';
+@import './../../_common/styles/guesthouses-grid.css';
+
+.popular-destination-page .page-header {
+  padding: 0;
+}
+
+.popular-destination-page .page-header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 250px;
+  background-color: var(--backdrop-color);
+  color: #fff;
+}
+
+.popular-destination-page .destination-rating {
+  font-size: var(--font-lg);
+  margin: 0 0 var(--size-sm) 0;
+  text-align: center;
+}
+
+.popular-destination-page .destination-description {
+  text-align: center;
+}
+
+.popular-destination-page .destination-guesthouses {
+  margin-top: var(--size-xxxl);
+}
+
+.popular-destination-page .destination-guesthouses h2 {
+  text-align: center;
+}
