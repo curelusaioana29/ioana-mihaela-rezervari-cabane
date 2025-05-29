@@ -1,11 +1,23 @@
-.page-header {
-  padding: 0 var(--size-xl);
+
+.page-header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background-color: var(--backdrop-color);
+  color: #fff;
+  font-size: var(--font-xxl);
+  text-shadow: var(--text-shadow);
 }
+
 
 .main-menu {
   position: sticky;
   top: 0;
   padding: 0 var(--size-md);
+  text-align: center;
   background: var(--color-background);
   z-index: var(--z-index-100);
   box-shadow: var(--shadow-small-down);
@@ -18,7 +30,7 @@
 }
 
 .page-content {
-  padding: var(--size-xl);
+  padding: var(--size-xl) var(--size-xl) var(--size-xxxl) var(--size-xl);
 }
 
 .page-footer {

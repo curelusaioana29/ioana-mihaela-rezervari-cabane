@@ -1,0 +1,65 @@
+@import './../_common/styles/design-system/index.css';
+
+.contact-page .page-header {
+  background: url('/_assets/images/contact-banner.jpg') no-repeat center center/cover;
+}
+
+.contact-page .contact-info {
+  max-width: 800px;
+  margin: var(--size-xl) auto;
+  padding: 0 var(--size-md);
+}
+
+.contact-page .contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--size-xl);
+  margin-bottom: var(--size-xxxl);
+}
+
+.contact-page .contact-section h2 {
+  margin: var(--size-xl) 0;
+  font-size: var(--font-xl);
+  text-align: center;
+}
+
+.contact-page .contact-item {
+  display: flex;
+  align-items: center;
+  gap: var(--size-md);
+  width: 250px;
+}
+
+.contact-page .contact-icon {
+  font-size: var(--font-xl);
+}
+
+.contact-page .contact-text strong {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: var(--size-xs);
+  display: block;
+}
+
+.contact-page .contact-text a {
+  color: var(--color-primary);
+}
+
+.contact-page .contact-map {
+  border: 2px solid var(--color-primary);
+  border-radius: var(--size-md);
+  width: 100%;
+  max-width: 600px;;
+  min-height: 250px;
+}
+
+.contact-page .map-link {
+  text-align: center;
+  margin-top: var(--size-md);
+}
+
+.contact-page .map-link a {
+  display: inline-block;
+  text-decoration: none;
+}

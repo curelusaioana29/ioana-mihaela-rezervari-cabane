@@ -1,2 +1,6 @@
 @import './_common/styles/design-system/index.css';
 @import './_common/styles/guesthouses-grid.css';
+
+.home-page .page-header {
+  background: url('/_assets/images/daria-guesthouse-banner.jpg') no-repeat 50% 60%/cover;
+}

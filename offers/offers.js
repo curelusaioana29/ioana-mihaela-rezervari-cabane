@@ -1,4 +1,6 @@
 import sanitizeHtml from 'sanitize-html';
+
+import { renderMainMenu } from './../_common/scripts/services/page.service';
 import { getRequest } from './../_common/scripts/services/requests-service';
 import { popularDestinationTemplate } from './../_common/templates/popular-destinations';
 
@@ -11,6 +13,8 @@ initializePage().catch((error) => {
 });
 
 async function initializePage() {
+  renderMainMenu();
+
   const popularDestinations = await getPopularDestinations();
   renderPopularDestinationCards(popularDestinations);
 }

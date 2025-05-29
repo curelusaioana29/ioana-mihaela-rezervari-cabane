@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-</head>
-<body>
-  <h1>Contact</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css" />
+    <script type="module" src="./contact.js"></script>
+  </head>
+  <body class="contact-page">
+    <header class="page-header">
+      <h1>Contact</h1>
+    </header>
+    <nav id="main-menu" class="main-menu"></nav>
+
+    <main class="page-content">
+      <div class="contact-info">
+        <section class="contact-section">
+          <h2>Informații de contact</h2>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span class="contact-text">
+              <strong>Adresă:</strong>
+              DN 75, nr. 72, Vârtop, 517633
+            </span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span class="contact-text">
+              <strong>Telefon:</strong>
+              <a href="tel:+40720123456">+40720123456</a>
+            </span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <span class="contact-text">
+              <strong>Email:</strong>
+              <a target="_blank" href="mailto:daria.guesthouse@gmail.com">
+                daria.guesthouse@gmail.com
+              </a>
+            </span>
+          </div>
+        </section>
+
+        <section class="contact-section">
+          <h2>Locația noastră</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d596.5253279493431!2d22.668449856811517!3d46.514810792539414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4748cf6788785079%3A0xa9adf182657a9ff1!2sVILA%20DARIA!5e0!3m2!1sen!2sro!4v1748469434270!5m2!1sen!2sro"
+            class="contact-map"
+            allowfullscreen="true"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="map-link">
+            <a
+              class="button button-primary"
+              href="https://maps.app.goo.gl/t3UX6MkqMUfXpuYS6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vezi pe Google Maps
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="page-footer">Copyright &copy; Ioana Mihaela Negrea</footer>
+  </body>
 </html>

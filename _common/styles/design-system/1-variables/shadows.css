@@ -1,4 +1,8 @@
 :root {
+  --default-shadow: 0 0 0.75rem 0.25rem rgba(0, 0, 0, 0.1);
+
   --shadow-small-down: 0 var(--size-xs) var(--size-xs) 0 rgba(0, 0, 0, 0.1);
   --shadow-small-up: 0 var(--size-negative-xs) var(--size-xs) 0 rgba(0, 0, 0, 0.1);
+
+  --text-shadow: 0 0 0.5rem #000;
 }

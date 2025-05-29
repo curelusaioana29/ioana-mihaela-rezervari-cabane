@@ -1,4 +1,6 @@
 import sanitizeHtml from 'sanitize-html';
+
+import { renderMainMenu } from './../../_common/scripts/services/page.service.js';
 import { guesthouseTemplate } from '../../_common/templates/guesthouses.js';
 import { getRequest } from './../../_common/scripts/services/requests-service.js';
 
@@ -9,9 +11,11 @@ initializePage().catch((error) => {
 });
 
 async function initializePage() {
+  renderMainMenu();
+
   const destinationDetails = await getDestinationDetails();
   renderDestinationDetails(destinationDetails);
-  await getDestinationGuesthouses();
+  await getDestinationGuesthouses(destinationDetails.id);
 }
 
 async function getDestinationDetails() {
@@ -58,16 +62,19 @@ function renderDestinationDetails(destinationDetails) {
   destinationRating.innerHTML = `<b>Rating:</b> ${destinationDetails.rating}`;
 }
 
-async function getDestinationGuesthouses() {
+async function getDestinationGuesthouses(destinationId) {
   const guesthousesGrid = document.getElementById(
     'destination-guesthouses-list'
   );
 
   try {
     const guesthouses = await getRequest('./../../_mocks/guesthouses.json');
+    const destinationGuesthouses = guesthouses.filter(
+      (guesthouse) => guesthouse.destinationId === destinationId
+    );
 
     guesthousesGrid.innerHTML = sanitizeHtml(
-      guesthouses.map(guesthouseTemplate).join('\n'),
+      destinationGuesthouses.map(guesthouseTemplate).join('\n'),
       {
         allowedTags: sanitizeHtml.defaults.allowedTags.concat([
           'img',

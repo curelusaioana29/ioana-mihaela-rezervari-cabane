@@ -2,43 +2,109 @@
   {
     "id": 1,
     "name": "Cabana Speranta",
-    "description": "Cabana Speranta este situata in Arieseni,Jud. Alba, dispune de 10 camere de inchiriat",
+    "description": "Cabana Speranta este situata in Poiana Mărului, Brașov, dispune de 10 camere de inchiriat",
     "price": 320,
-    "previewImageUrl": "guesthouses/cabana1.jpg"
+    "previewImageUrl": "guesthouses/cabana1.jpg",
+    "destinationId": 1,
+    "rating": 4.9
   },
   {
     "id": 2,
     "name": "Cabana Aurora",
-    "description": "Cabana Aurora este situata in Arieseni,Jud. Alba, dispune de 5 camere de inchiriat",
+    "description": "Cabana Aurora este situata in Sinaia, Prahova, dispune de 5 camere de inchiriat",
     "price": 250,
-    "previewImageUrl": "guesthouses/cabana2.jpg"
+    "previewImageUrl": "guesthouses/cabana2.jpg",
+    "destinationId": 2,
+    "rating": 4.8
   },
   {
     "id": 3,
     "name": "Cabana Daria",
-    "description": "Cabana Daria este situata in Arieseni,Jud. Alba, dispune de 17 camere de inchiriat",
+    "description": "Cabana Daria este situata in Sovata, Mureș, dispune de 17 camere de inchiriat",
     "price": 350,
-    "previewImageUrl": "guesthouses/cabana3.jpg"
+    "previewImageUrl": "guesthouses/cabana3.jpg",
+    "destinationId": 3,
+    "rating": 5
   },
   {
     "id": 4,
     "name": "Cabana Neag",
-    "description": "Cabana Neag este situata in Arieseni,Jud. Alba, dispune de 16 camere de inchiriat",
+    "description": "Cabana Neag este situata in Poiana Mărului, Brașov, dispune de 16 camere de inchiriat",
     "price": 300,
-    "previewImageUrl": "guesthouses/cabana4.jpg"
+    "previewImageUrl": "guesthouses/cabana4.jpg",
+    "destinationId": 1,
+    "rating": 4.9
   },
   {
     "id": 5,
     "name": "Cabana Vraja Muntelui",
-    "description": "Cabana Vraja Muntelui este situata in Arieseni,Jud. Alba, dispune de 7 camere de inchiriat",
+    "description": "Cabana Vraja Muntelui este situata in Sinaia, Prahova, dispune de 7 camere de inchiriat",
     "price": 280,
-    "previewImageUrl": "guesthouses/cabana5.jpg"
+    "previewImageUrl": "guesthouses/cabana5.jpg",
+    "destinationId": 2,
+    "rating": 4.6
   },
   {
     "id": 6,
     "name": "Cabana Popasul Vanatorului",
-    "description": "Cabana Popasul Vanatorului este situata in Arieseni,Jud. Alba, dispune de 18 camere de inchiriat",
+    "description": "Cabana Popasul Vanatorului este situata in Sovata, Mureș, dispune de 18 camere de inchiriat",
     "price": 275,
-    "previewImageUrl": "guesthouses/cabana6.jpg"
+    "previewImageUrl": "guesthouses/cabana6.jpg",
+    "destinationId": 3,
+    "rating": 4.7
+  },
+  {
+    "id": 7,
+    "name": "Cabana Brădețul",
+    "description": "Cabana Brădețul este situata in Predeal, Brașov, dispune de 12 camere de inchiriat",
+    "price": 420,
+    "previewImageUrl": "guesthouses/cabana1.jpg",
+    "destinationId": 4,
+    "rating": 4.2
+  },
+  {
+    "id": 8,
+    "name": "Cabana Muntele Alb",
+    "description": "Cabana Muntele Alb este situata in Predeal, Brașov, dispune de 8 camere de inchiriat",
+    "price": 380,
+    "previewImageUrl": "guesthouses/cabana2.jpg",
+    "destinationId": 4,
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "name": "Cabana Vârful Înalt",
+    "description": "Cabana Vârful Înalt este situata in Pasul Vârtop, Alba, dispune de 6 camere de inchiriat",
+    "price": 450,
+    "previewImageUrl": "guesthouses/cabana3.jpg",
+    "destinationId": 5,
+    "rating": 4.3
+  },
+  {
+    "id": 10,
+    "name": "Cabana Panorama",
+    "description": "Cabana Panorama este situata in Pasul Vârtop, Alba, dispune de 14 camere de inchiriat",
+    "price": 480,
+    "previewImageUrl": "guesthouses/cabana4.jpg",
+    "destinationId": 5,
+    "rating": 4.0
+  },
+  {
+    "id": 11,
+    "name": "Cabana Stejarul Centenar",
+    "description": "Cabana Stejarul Centenar este situata in Păltiniș, Sibiu, dispune de 9 camere de inchiriat",
+    "price": 390,
+    "previewImageUrl": "guesthouses/cabana5.jpg",
+    "destinationId": 6,
+    "rating": 4.1
+  },
+  {
+    "id": 12,
+    "name": "Cabana Poiana Secreta",
+    "description": "Cabana Poiana Secreta este situata in Păltiniș, Sibiu, dispune de 11 camere de inchiriat",
+    "price": 410,
+    "previewImageUrl": "guesthouses/cabana6.jpg",
+    "destinationId": 6,
+    "rating": 4.2
   }
 ]

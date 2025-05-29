@@ -1,0 +1,65 @@
+@import './../_common/styles/design-system/index.css';
+
+.about-us-page .page-header {
+  background: url("/_assets/images/about-us-banner.jpg") no-repeat center center/cover;
+}
+
+.about-us-page .about-content {
+  max-width: 800px;
+  margin: var(--size-xl) auto;
+  padding: 0 var(--size-md);
+}
+
+.about-us-page .about-section {
+  margin-bottom: var(--size-xxxl);
+}
+
+.about-us-page .about-text-with-image {
+  overflow: hidden;
+}
+
+.about-us-page .about-text-with-image p {
+  margin: 0;
+  font-size: var(--font-md);
+  line-height: 1.75;
+  text-align: justify;
+}
+
+.about-us-page .about-text-with-image img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.about-us-page .float-left {
+  float: left;
+  margin-left: 0;
+  margin-right: var(--size-lg);
+}
+
+.about-us-page .float-right {
+  float: right;
+  margin-right: 0;
+  margin-left: var(--size-lg);
+}
+
+/* Clearfix for floating elements */
+.about-us-page .about-text-with-image::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (max-width: 768px) {
+  .about-us-page .about-text-with-image img {
+    float: none;
+    display: block;
+    margin: 0 auto var(--size-lg) auto;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .about-us-page .about-text-with-image p {
+    text-align: center;
+  }
+}

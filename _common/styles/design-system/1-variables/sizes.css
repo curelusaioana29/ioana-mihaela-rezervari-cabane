@@ -7,6 +7,7 @@
   --size-xl: 2rem;
   --size-xxl: 3rem;
   --size-xxxl: 4rem;
+  --size-4xl: 5rem;
 
   /* Negative sizes */
   --size-negative-xxs: -0.25rem;
@@ -17,4 +18,5 @@
   --size-negative-xl: -2rem;
   --size-negative-xxl: -3rem;
   --size-negative-xxxl: -4rem;
+  --size-negative-4xl: -5rem;
 }

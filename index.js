@@ -1,5 +1,6 @@
 import sanitizeHtml from 'sanitize-html';
 
+import { renderMainMenu } from './_common/scripts/services/page.service.js';
 import { getRequest } from './_common/scripts/services/requests-service.js';
 import { guesthouseTemplate } from './_common/templates/guesthouses.js';
 
@@ -10,8 +11,11 @@ initializePage().catch((error) => {
 });
 
 async function initializePage() {
+  renderMainMenu();
+
   const guesthouses = await getGuesthouses();
-  renderGuesthouseCards(guesthouses);
+  const popularGuesthouses = guesthouses.filter(guesthouse => guesthouse.rating >= 4.5);
+  renderGuesthouseCards(popularGuesthouses);
 }
 
 async function getGuesthouses() {
